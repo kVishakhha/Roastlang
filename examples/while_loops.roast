@@ -1,0 +1,9 @@
+roast n is 5 ~
+burn "Countdown:" ~
+
+keep going while (n > 0)
+    burn n ~
+    roast n is n - 1 ~
+nevermind
+
+burn "Liftoff!" ~

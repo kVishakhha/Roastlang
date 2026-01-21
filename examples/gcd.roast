@@ -1,0 +1,12 @@
+# Greatest Common Divisor
+roast a is 24 ~
+roast b is 36 ~
+
+keep going while (b != 0)
+    roast temp is b ~
+    roast b is a % b ~
+    roast a is temp ~
+nevermind
+
+burn "GCD:" ~
+burn a ~

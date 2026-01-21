@@ -1,0 +1,27 @@
+# Reverse an array
+roast arr is array[5] ~
+
+roast arr[0] is 1 ~
+roast arr[1] is 2 ~
+roast arr[2] is 3 ~
+roast arr[3] is 4 ~
+roast arr[4] is 5 ~
+
+roast left is 0 ~
+roast right is 4 ~
+
+keep going while (left < right)
+    roast temp is arr[left] ~
+    roast arr[left] is arr[right] ~
+    roast arr[right] is temp ~
+    roast left is left + 1 ~
+    roast right is right - 1 ~
+nevermind
+
+burn "Reversed:" ~
+
+roast i is 0 ~
+keep going while (i < 5)
+    burn arr[i] ~
+    roast i is i + 1 ~
+nevermind

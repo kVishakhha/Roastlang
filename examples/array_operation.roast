@@ -1,0 +1,20 @@
+# Array sum and average
+roast numbers is array[5] ~
+
+roast numbers[0] is 10 ~
+roast numbers[1] is 20 ~
+roast numbers[2] is 30 ~
+roast numbers[3] is 40 ~
+roast numbers[4] is 50 ~
+
+roast sum is 0 ~
+for i from 0 to 4 toast
+    roast sum is sum + numbers[i] ~
+nevermind
+
+roast avg is sum / 5 ~
+
+burn "Array sum:" ~
+burn sum ~
+burn "Array average:" ~
+burn avg ~

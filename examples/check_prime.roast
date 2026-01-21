@@ -1,0 +1,20 @@
+# Check if 17 is prime
+roast num is 17 ~
+roast is_prime is 1 ~
+roast i is 2 ~
+
+keep going while (i * i <= num)
+    check if (num % i == 0) then
+        roast is_prime is 0 ~
+        stop roasting ~
+    ouch
+    roast i is i + 1 ~
+nevermind
+
+check if (is_prime == 1) then
+    burn "It's prime!" ~
+ouch
+else
+    burn "Not prime" ~
+mic drop
+

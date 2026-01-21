@@ -1,0 +1,10 @@
+roast age is 25 ~
+
+check if (age >= 18) then
+    burn "You're legally roasted" ~
+ouch
+
+else
+    burn "Too young" ~
+mic drop
+

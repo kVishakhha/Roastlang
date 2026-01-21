@@ -1,0 +1,17 @@
+# Fibonacci sequence generator - WORKING VERSION
+roast n is 10 ~
+roast a is 0 ~
+roast b is 1 ~
+
+burn "Fibonacci Sequence:" ~
+
+# Use WHILE loop instead of FOR (more reliable)
+roast counter is 0 ~
+
+keep going while (counter < n)
+    burn a ~
+    roast temp is a + b ~
+    roast a is b ~
+    roast b is temp ~
+    roast counter is counter + 1 ~
+nevermind

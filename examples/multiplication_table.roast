@@ -1,0 +1,10 @@
+# Multiplication table for 5
+roast num is 5 ~
+burn "Multiplication Table for 5:" ~
+
+roast i is 1 ~
+keep going while (i <= 10)
+    roast result is num * i ~
+    burn result ~
+    roast i is i + 1 ~
+nevermind

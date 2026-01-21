@@ -1,0 +1,8 @@
+burn "Numbers 1 to 5:" ~
+
+roast i is 1 ~
+keep going while (i <= 5)
+    burn i ~
+    roast i is i + 1 ~
+nevermind
+

@@ -1,0 +1,3 @@
+burn "Welcome to RoastLang!" ~
+roast x is 42 ~
+burn x ~

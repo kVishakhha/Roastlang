@@ -1,0 +1,15 @@
+roast arr is array[5] ~
+
+roast arr[0] is 10 ~
+roast arr[1] is 20 ~
+roast arr[2] is 30 ~
+roast arr[3] is 40 ~
+roast arr[4] is 50 ~
+
+burn "Array elements:" ~
+
+roast i is 0 ~
+keep going while (i < 5)
+    burn arr[i] ~
+    roast i is i + 1 ~
+nevermind

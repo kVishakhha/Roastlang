@@ -1,0 +1,21 @@
+# Demonstrate break and continue
+burn "Break example:" ~
+roast i is 0 ~
+keep going while (i < 10)
+    check if (i == 5) then
+        stop roasting ~
+    ouch
+    burn i ~
+    roast i is i + 1 ~
+nevermind
+
+burn "" ~
+burn "Continue example:" ~
+roast i is 0 ~
+keep going while (i < 5)
+    roast i is i + 1 ~
+    check if (i == 3) then
+        skip ahead ~
+    ouch
+    burn i ~
+nevermind

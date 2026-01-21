@@ -1,0 +1,11 @@
+# Calculate factorial of 5
+roast num is 5 ~
+roast result is 1 ~
+
+keep going while (num > 1)
+    roast result is result * num ~
+    roast num is num - 1 ~
+nevermind
+
+burn "Factorial result:" ~
+burn result ~
